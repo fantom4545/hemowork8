@@ -1,8 +1,6 @@
-def print_params(x=3, y=4):
-    print(x, y)
-    print(y)
+def print_params(a):
+    print(a, a)
 
-
-print_params()
-print_params()
-print_params()
+print_params(55)
+print_params(55)
+print_params("апельсин")
